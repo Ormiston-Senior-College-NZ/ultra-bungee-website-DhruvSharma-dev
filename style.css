@@ -35,6 +35,7 @@ body {
 .navbutton :hover {
     background-color: var(--main-col);
     border-radius: 30px;
+    transition: background-color 0.3s ease;
 }
 
 header li {
@@ -126,9 +127,12 @@ header nav {
     font-family: Lato;
 }
 
+/* Hover Effect for Jumpbuttons on Home Page */
 .jumpbuttons a:hover {
     background-color: var(--main-col);
-    font-size: 50px;
+    font-size: 45px;
+    transition: background-color, font-size 0.3s ease;
+    color: var(--outline-col);
 }
 
 .reviews-section {
@@ -214,5 +218,30 @@ footer {
 .reviews-section h2 {
     font-size: 40px;
     padding-top: 20px;
+    font-family: Quattrocento;
+}
+
+/* Style for Jump Pages */
+
+.heroimage1 {
+    background-image: url(img/bridge2.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position-y: -400px;
+    background-repeat: no-repeat;
+}
+
+.hero-overlay1 {
+    position: absolute;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    padding: 25px;
+    justify-self: center;
+    right: 2%;
+    left: 2%;
+    bottom: 45%;
+    font-size: 100px;
     font-family: Quattrocento;
 }
