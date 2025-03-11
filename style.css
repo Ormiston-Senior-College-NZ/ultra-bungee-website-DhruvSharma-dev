@@ -245,3 +245,24 @@ footer {
     font-size: 100px;
     font-family: Quattrocento;
 }
+
+.prices {
+    background-image: url(img/bridge2.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position-y: -400px;
+    background-repeat: no-repeat;
+}
+.prices h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.prices h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
