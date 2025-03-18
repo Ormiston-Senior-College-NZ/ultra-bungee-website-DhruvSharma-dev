@@ -141,7 +141,7 @@ header nav {
     color: var(--outline-col);
     background-image: url(img/canyon3.jpg);
     background-repeat: no-repeat;
-    background-position-y: -180px;
+    background-position-y: -150px;
     height: 90vh;
     width: auto;
     position: relative;
@@ -247,22 +247,50 @@ footer {
 }
 
 .prices {
-    background-image: url(img/bridge2.jpg);
+    background-image: url(img/bungee_general2.jpg);
     height: 80vh;
     width: 100%;
     background-size: cover;
     background-position-y: -400px;
     background-repeat: no-repeat;
-}
-.prices h2 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    
+    align-content: center;
 }
 
-.prices h3 {
+.prices h2, .prices h3 {
     display: flex;
     text-align: center;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    font-family: lato;
+    font-size: 20px;
+}
+
+.infosection {
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    background-image: url(img/bridge_hero_image.jpg);
+}
+
+.infosectioninstructor {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 14px;
+    padding: 20px;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    margin: 3px 90px;
+}
+
+.infosectionmoreinfo {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 14px;
+    padding: 20px;
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    margin: 3px 90px;
 }
