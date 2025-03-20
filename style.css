@@ -176,6 +176,8 @@ header nav {
     color: var(--accent-col);
 }
 
+/* Footer Style */
+
 footer {
     background-color: var(--main-col);
     color: var(--outline-col);
@@ -183,9 +185,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 60px;
+    bottom: 0;
+    z-index: 3;
 }
 
 .footer-content {
@@ -206,6 +210,8 @@ footer {
 .footer-links {
     margin-left: 1176px;
 }
+
+/* Book Now section of the footer */
 
 .book-now {
     background-color: var(--accent-col);
@@ -301,6 +307,8 @@ footer {
     text-align: center;
     padding: 20px;
     color: white;
+    font-family: Quattrocento;
+    font-size: 26px;
 }
 
 .grid-container {
@@ -309,7 +317,7 @@ footer {
     gap: 10px;
     max-width: 900px;
     margin: 0 auto;
-    padding: 120px;
+    padding-bottom: 70px;
 }
 
 .grid-container img {
@@ -321,5 +329,26 @@ footer {
 }
 
 
-/* Styling for Contact and Book Now Pages */
+/* Styling for Contact Page */
+
+.contact-review-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    padding: 13px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
 
