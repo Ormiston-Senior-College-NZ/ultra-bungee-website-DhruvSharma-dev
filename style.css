@@ -334,15 +334,16 @@ footer {
 .contact-review-container {
     display: flex;
     justify-content: space-around;
-    padding: 30px;
+    padding: 10px;
 }
 
 .box {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
+    background: var(--main-col);
+    padding: 25px;
+    border-radius: 20px;
     width: 40%;
-    padding: 13px;
+    font-family: Lato;
+    color: var(--outline-col);
 }
 
 input, textarea {
@@ -350,5 +351,25 @@ input, textarea {
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
+}
+ 
+.submit-button {
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+    border-radius: 7px;
+}
+
+/* Book Now Page Styling */
+
+.book-now-container {
+    padding: 50px;
+    background-color: var(--main-col);
+    margin-left: 210px;
+    margin-right: 210px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: lato;
 }
 
